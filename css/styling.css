@@ -1,57 +1,57 @@
-body{
-    background: linear-gradient(135deg, #f0fff1 0%, #dbf9be 30%, #41af7c 100%);    font-family: Courier;
+body {
+    background: linear-gradient(135deg, #f0fff1 0%, #dbf9be 30%, #41af7c 100%);
+    font-family: Courier, monospace;
+
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    
- 
+    margin: 0;
 }
-.holder{
+
+.holder {
     background: linear-gradient(135deg, #134E5E 0%, #71B280 100%);
-    padding: 80px;
-    height: 50vh;
-    border-radius: 6px;
-    box-shadow: 0 5px 10px rgb(0, 1, 1, 0.5);
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
     text-align: center;
     font-weight: bold;
 }
-label{
+
+label {
     display: block;
     margin-bottom: 5px;
-    color: rgb(0, 0, 0);
+    color: black;
 }
-.inputBox{
-    margin-bottom: 5px;
-    
-    
+
+.inputBox {
+    margin-bottom: 10px;
 }
-input[type="text"]{
-    width: calc(100%-22px);
+
+input[type="text"] {
+    width: calc(100% - 22px);
     padding: 10px;
     border-radius: 5px;
     border: 1px solid #555;
-
 }
-button{
-    padding: 10px 10px;
+
+.btn {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px;
     border: none;
-    background-color: #9af3bf;
+    background-color: #97af7c;
     color: black;
     border-radius: 5px;
     font-size: 15px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
-
+    cursor: pointer;
 }
-.btn{
-    display:flex;
-    justify-content: space-around;
-    margin-top: 20px;
 
-
-}
-button:hover{
-    background-color: rgb(44, 94, 56);
-    color: rgb(255, 255, 255);
+button:hover {
+    background-color: rgb(44,94,56);
+    color: white;
 }
