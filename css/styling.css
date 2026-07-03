@@ -1,6 +1,5 @@
 body{
-    background: linear-gradient(208deg, #2b6e41 0%, #477b51 100%);
-    font-family: Courier;
+    background: linear-gradient(135deg, #f0fff1 0%, #dbf9be 30%, #41af7c 100%);    font-family: Courier;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,7 +8,7 @@ body{
  
 }
 .holder{
-    background-image: linear-gradient(208deg, #388f55 0%, #60c274 100%);
+    background: linear-gradient(135deg, #134E5E 0%, #71B280 100%);
     padding: 80px;
     height: 50vh;
     border-radius: 6px;
